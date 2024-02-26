@@ -1,17 +1,17 @@
 
 @font-face {
     font-family: 'Valo';
-    src: url(../Webfonts/Valorant\ Font.ttf);
+    src: url(Webfonts/Valorant\ Font.ttf);
 }
 
 @font-face {
     font-family: 'din';
-    src: url(../Webfonts/DIN\ Next\ Devanagari\ W05\ Bold.ttf);
+    src: url(Webfonts/DIN\ Next\ Devanagari\ W05\ Bold.ttf);
 }
 
 @font-face {
     font-family: 'nid';
-    src: url(../Webfonts/FontsFree-Net-Tungsten-Bold.ttf);
+    src: url(Webfonts/FontsFree-Net-Tungsten-Bold.ttf);
 }
 
 body, html {
