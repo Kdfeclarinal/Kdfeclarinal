@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'din';
+    src: url(FontsM/FontsFree-Net-Tungsten-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'nid';
+    src: url(FontsM/DIN\ Next\ Devanagari\ W05\ Bold.ttf);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.Abackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.bg1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.map-container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+#mapImage {
+    max-width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+.map-description {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.map-description h2{
+    position: absolute;
+    top: -600px;
+    left: -367px; 
+    font-family: 'din'; 
+    font-weight: bold;
+    font-size: 150px;
+    
+}
+
+.map-description p{
+    position: absolute;
+    top: 50px;
+    left: -373px;
+    width: 765px;
+    text-align: justify;
+    font-family: 'nid';
+    
+}
+
+.Rightnav-button {
+    position: absolute;
+    top: 50%;
+    height: auto;
+    width: 8%;
+    transform: translateY(-50%);
+    font-size: 50px;
+    background-color: #ff4655;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    left: 105%;
+}
+
+.Rightnav-button:hover {
+    background-color: red;
+}
+
+.Leftnav-button {
+    position: absolute;
+    top: 50%;
+    left: -13%; 
+    height: auto;
+    width: 8%;
+    transform: translateY(-50%);
+    font-size: 50px;
+    background-color: #ff4655;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.Leftnav-button:hover {
+    background-color: red;
+}
+
+@media (max-width: 600px) {
+    .container {
+        max-width: 100%;
+        margin-left: 0;
+        padding: 10px;
+    }
+}
