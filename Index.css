@@ -78,7 +78,7 @@ body{
 
 .playButtonLink {
     position: absolute;
-    top: 500px;
+    top: 550px;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 3;
@@ -249,14 +249,14 @@ nav a{
 
 .centerText {
     position: absolute;
-    top: 1050px;
+    top: 1100px;
     left: 570px;
     transform: translate(-50%, -50%);
     text-align: center;
     color: #ff4655;
     font-family: 'nid', Arial, Helvetica, sans-serif;
     z-index: 2;
-    font-size: 90px;
+    font-size: 50px;
     white-space: nowrap;
 
 }
@@ -266,17 +266,17 @@ nav a{
     font-family: 'din', sans-serif;
     color: #768079;
     margin: 10px 0;
-    max-width: 1500px;
     text-align: justify;
 }
 
     .centerText h1,
     .centerText .paragraph {
         margin: 10px 0; 
+        left: 500px;
     }
     
     .centerText h1 {
-        margin-bottom: 20px; 
+        margin-bottom: -20px; 
     }
     
     .centerText .paragraph {
@@ -303,7 +303,7 @@ nav a{
     letter-spacing: -8px;
     position: absolute;
     top: 490px;
-    left: 750px;
+    left: 900px;
     transform: translate(-50%, -50%);
     text-align: center;
     color: #ece8e1;
@@ -317,7 +317,7 @@ nav a{
     letter-spacing: 10px;
     position: absolute;
     top: 600px;
-    left: 750px;
+    left: 900px;
     transform: translate(-50%, -50%);
     text-align: center;
     color: #ece8e1;
@@ -342,7 +342,7 @@ nav a{
     border-radius: 0;
     letter-spacing: 2px;
     position: absolute; 
-    left: 650px; 
+    left: 800px; 
     top: 330px;
     transform: translateX(-50%, -50%); 
     z-index: 4;
@@ -424,7 +424,7 @@ nav a{
   border-radius: 0;
   letter-spacing: 2px;
   position: absolute; 
-  left: 1210px; 
+  left: 1400px; 
   top: 2650px;
   transform: translateX(-50%, -50%); 
   z-index: 4;
@@ -466,13 +466,13 @@ nav a{
 .gamep{
     position: absolute;
     top: 2710px;
-    left: 900px;
+    left: 1050px;
 }
 
 .vidcap{
     position: absolute;
     top: 2705px;
-    left: 1020px;
+    left: 1180px;
     transform: translate(-50%, -50%);
     text-align: center;
     color: #ff4655;
@@ -487,7 +487,7 @@ nav a{
 .kani{
     position: absolute;
     top: 464px;
-    left: -898px;
+    left: -1047px;
 }
 
 .agents{
@@ -582,7 +582,7 @@ nav a{
   .amaps{
     position: absolute;
     top: 1000px;
-    left: -898px;
+    left: -1047px;;
 }
 
 .maps{
