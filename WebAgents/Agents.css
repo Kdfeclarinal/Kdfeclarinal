@@ -88,9 +88,10 @@ li:hover{
 }
 
 #agentDetails p{
-    max-width: 500px;
+    max-width: 800px;
     transform: translateY(-615px);
     margin-left: 350px;
+    font-size: 2.5vh;
 }
     
 #agentDetails img {
